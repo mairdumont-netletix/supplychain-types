@@ -1,6 +1,6 @@
 {
   "name": "@mdnx/supplychain-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IAB's Supplychain spec types in TypeScript",
   "keywords": [
     "supplychain",
@@ -8,7 +8,6 @@
     "openrtb",
     "iab"
   ],
-  "main": "./src/index.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
