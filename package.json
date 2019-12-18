@@ -1,0 +1,38 @@
+{
+  "name": "@mdnx/supplychain-types",
+  "version": "1.0.0",
+  "description": "IAB's Supplychain spec types in TypeScript",
+  "keywords": [
+    "supplychain",
+    "schain",
+    "openrtb",
+    "iab"
+  ],
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mairdumont-netletix/supplychain-types.git"
+  },
+  "author": "Denny Bartelt <d.bartelt@mairdumont-netletix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mairdumont-netletix/supplychain-types/issues"
+  },
+  "homepage": "https://github.com/mairdumont-netletix/supplychain-types#readme",
+  "files": [
+    "README.md",
+    "dist",
+    "src",
+    "!*/__tests__"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
