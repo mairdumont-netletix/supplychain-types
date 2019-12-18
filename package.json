@@ -1,6 +1,6 @@
 {
   "name": "@mdnx/supplychain-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IAB's Supplychain spec types in TypeScript",
   "keywords": [
     "supplychain",
@@ -24,6 +24,8 @@
   "homepage": "https://github.com/mairdumont-netletix/supplychain-types#readme",
   "files": [
     "README.md",
+    "index.js",
+    "index.d.ts",
     "dist",
     "src",
     "!*/__tests__"
